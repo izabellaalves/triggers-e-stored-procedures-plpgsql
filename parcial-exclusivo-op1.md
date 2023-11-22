@@ -12,7 +12,7 @@ CREATE TABLE CEG (
 
 -- Criando a tabela CEE1
 CREATE TABLE CEE1 (
-    Ch SERIAL PRIMARY KEY,
+    Ch PRIMARY KEY,
     Aei VARCHAR(20),
     -- Adicionando chave estrangeira referenciando a tabela CEG
     FOREIGN KEY (Ch) REFERENCES CEG(Ch)
