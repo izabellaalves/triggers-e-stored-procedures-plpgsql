@@ -10,8 +10,8 @@ CREATE TABLE CEG (
     AG VARCHAR(20)
 );
 
--- Criando a tabela CEEi
-CREATE TABLE CEEi (
+-- Criando a tabela CEE1
+CREATE TABLE CEE1 (
     Ch SERIAL PRIMARY KEY,
     Aei VARCHAR(20),
     -- Adicionando chave estrangeira referenciando a tabela CEG
